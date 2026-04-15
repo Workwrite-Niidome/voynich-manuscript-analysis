@@ -1,0 +1,83 @@
+========================================
+arXiv SUBMISSION FORM -- COPY/PASTE READY
+========================================
+Each section below corresponds to a field in the arXiv submission form.
+Copy the content between the dashed lines for each field.
+
+
+========== TITLE ==========
+(Paste into the "Title" field)
+
+Multi-Agent AI Analysis of the Voynich Manuscript: Validated Structural Constraints and the Limits of Computational Decipherment
+
+
+========== AUTHORS ==========
+(Paste into the "Authors" field)
+
+Anonymous (direction and supervision), Claude Opus 4.6 (computational analysis, Anthropic)
+
+
+========== ABSTRACT ==========
+(Paste into the "Abstract" field)
+
+The Voynich Manuscript (Beinecke MS 408, radiocarbon-dated 1404--1438) has resisted decipherment for over a century. We present a systematic computational analysis of its full EVA transcription (37,779 tokens, 8,500 unique types, 226 folios) using iterative hypothesis-generation and adversarial hypothesis-destruction cycles across 20+ analysis cycles, comprising over 273 analytical files, two pre-registered blind prediction tests, a dedicated red-team review, full-scale morpheme validation on 112 herbal pages, pharmaceutical encoding tests, within-page structure analysis, and measurement system validation.
+
+Our methodology introduces blind prediction testing to Voynich studies -- a first in the field. Of 33 hypotheses tested, 18 were eliminated, producing a clear separation between validated structural findings, promising hypotheses, and refuted claims.
+
+Validated findings (survived all tests): (1) cross-word sandhi in suffix selection (10-fold CV, 42.9% vs. 34.7% baseline, p < 0.001, Cramer's V = 0.22); (2) a 6-layer compositional morphological architecture with near-zero prefix-suffix coupling (NMI = 0.032); (3) vowel grade encoding lexical specificity (r = -0.954); (4) within-page template structure with -dy/-ol suffix crossover at line 7--8 (chi-squared < 0.001); (5) 93% unique first words on herbal pages; (6) a qo-k measurement system with doubling, position, and context coherence; (7) ty as a validated predictor of linear-leaved plants (Fisher p = 0.008, OR = 18.0); (8) headache-pair vocabulary sharing at 99th percentile (p < 0.01); (9) 14/15 morpheme substrings with non-random page distributions surviving Bonferroni correction; and (10) 8/8 compound classifier compositionality matches.
+
+Refuted claims include: sh = underground/root (blind test 25%), cthy = fruit (full-scale p = 0.66), dchy = tall (p = 1.0), full-scale word-illustration correlation failure, drachma:ounce ratio mismatch, and pharmaceutical encoding (1/5 tests support). Complete failure reporting is provided for all 18 eliminated hypotheses.
+
+The manuscript remains undeciphered. However, the validated findings constrain the solution space and demonstrate genuine linguistic or notational structure incompatible with simple hoax mechanisms.
+
+
+========== PRIMARY CATEGORY ==========
+(Select from dropdown)
+
+cs.CL (Computation and Language)
+
+
+========== CROSS-LIST CATEGORIES ==========
+(Select additional categories)
+
+cs.AI (Artificial Intelligence)
+cs.DL (Digital Libraries)
+
+
+========== MSC CLASSES ==========
+(Paste into "MSC-class" field, if available)
+
+94A60; 68T50
+
+
+========== COMMENTS ==========
+(Paste into the "Comments" field)
+
+40+ pages including appendices; 273-file supplementary archive; two pre-registered blind prediction tests; adversarial red-team review
+
+
+========== LICENSE ==========
+(Select from dropdown)
+
+CC BY 4.0 (Creative Commons Attribution)
+
+
+========== JOURNAL REFERENCE ==========
+(Leave blank -- this is a preprint)
+
+
+========== DOI ==========
+(Leave blank -- no DOI yet)
+
+
+========== REPORT NUMBER ==========
+(Leave blank)
+
+
+========================================
+KEYWORDS (for your reference, not an arXiv field):
+
+Voynich Manuscript, computational linguistics, historical cryptography,
+undeciphered writing systems, morphological analysis, AI-assisted analysis,
+blind prediction testing
+========================================

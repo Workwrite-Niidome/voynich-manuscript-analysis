@@ -1,0 +1,283 @@
+======================================================================
+ANALYSIS 1: Vocabulary overlap of currently adjacent folios
+======================================================================
+Average Jaccard similarity (current order): 0.0950
+Total adjacent pairs: 225
+
+Top 10 most similar adjacent pairs:
+  f80r <-> f80v: 0.2228
+  f79r <-> f79v: 0.2206
+  f103r <-> f103v: 0.2156
+  f75v <-> f76r: 0.2020
+  f76v <-> f77r: 0.2006
+  f78r <-> f78v: 0.2000
+  f80v <-> f81r: 0.1993
+  f84r <-> f84v: 0.1975
+  f79v <-> f80r: 0.1974
+  f78v <-> f79r: 0.1957
+
+Bottom 10 least similar adjacent pairs:
+  f5r <-> f5v: 0.0250
+  f96r <-> f96v: 0.0250
+  f68r2 <-> f68r3: 0.0247
+  f67v2 <-> f67v1: 0.0238
+  f95v1 <-> f96r: 0.0238
+  f24v <-> f25r: 0.0174
+  f68r1 <-> f68r2: 0.0147
+  f58v <-> f65r: 0.0042
+  f116r <-> f116v: 0.0036
+  f65r <-> f65v: 0.0000
+
+======================================================================
+ANALYSIS 2: Quire 13 reordering test
+======================================================================
+Q13 current order avg Jaccard: 0.1904
+Q13 proposed order avg Jaccard: 0.1933
+Change: +1.5%
+
+Q13 Current order pairs (leaf transitions only):
+  f75v -> f76r: 0.2020
+  f76v -> f77r: 0.2006
+  f77v -> f78r: 0.1478
+  f78v -> f79r: 0.1957
+  f79v -> f80r: 0.1974
+  f80v -> f81r: 0.1993
+  f81v -> f82r: 0.1747
+  f82v -> f83r: 0.1851
+  f83v -> f84r: 0.1755
+
+Q13 Proposed order pairs (leaf transitions only):
+  f76v -> f77r: 0.2006
+  f77v -> f79r: 0.1552
+  f79v -> f84r: 0.2126
+  f84v -> f78r: 0.2371
+  f78v -> f81r: 0.2087
+  f81v -> f75r: 0.1923
+  f75v -> f80r: 0.1792
+  f80v -> f82r: 0.1631
+  f82v -> f83r: 0.1851
+
+======================================================================
+ANALYSIS 3: Cross-folio word continuation (boundary overlap)
+======================================================================
+
+Q13 boundary overlap (last 10 words -> first 10 words at leaf transitions):
+Current order:
+  f75v -> f76r: 0.0000
+  f76v -> f77r: 0.0000
+  f77v -> f78r: 0.0526
+  f78v -> f79r: 0.0000
+  f79v -> f80r: 0.0000
+  f80v -> f81r: 0.0000
+  f81v -> f82r: 0.0000
+  f82v -> f83r: 0.0000
+  f83v -> f84r: 0.0000
+Proposed order:
+  f76v -> f77r: 0.0000
+  f77v -> f79r: 0.0000
+  f79v -> f84r: 0.0000
+  f84v -> f78r: 0.0000
+  f78v -> f81r: 0.0000
+  f81v -> f75r: 0.0000
+  f75v -> f80r: 0.0000
+  f80v -> f82r: 0.0000
+  f82v -> f83r: 0.0000
+
+Avg boundary overlap - Current: 0.0058, Proposed: 0.0000
+
+======================================================================
+ANALYSIS 4: Herbal section bifolium coherence
+======================================================================
+
+Bifolium coherence (Jaccard between conjugate leaves):
+
+  Q1:
+    f1/f8 bifolium: 0.1280
+    f2/f7 bifolium: 0.0722
+    f3/f6 bifolium: 0.1265
+    f4/f5 bifolium: 0.0982
+
+  Q2:
+    f9/f15 bifolium: 0.0955
+    f10/f14 bifolium: 0.1093
+    f11/f13 bifolium: 0.1456
+
+  Q4:
+    f25/f32 bifolium: 0.0800
+    f26/f31 bifolium: 0.1155
+    f27/f30 bifolium: 0.0683
+    f28/f29 bifolium: 0.1061
+
+  Q5:
+    f33/f40 bifolium: 0.1200
+    f34/f39 bifolium: 0.1376
+    f35/f38 bifolium: 0.0847
+    f36/f37 bifolium: 0.1217
+
+  Q6:
+    f41/f48 bifolium: 0.0846
+    f42/f47 bifolium: 0.0952
+    f43/f46 bifolium: 0.1339
+    f44/f45 bifolium: 0.1106
+
+Conjugate vs Sequential comparison (Herbal):
+  Avg conjugate leaf similarity: 0.1070
+  Avg sequential leaf similarity: 0.0677
+
+======================================================================
+ANALYSIS 5: Currier A/B dialect distribution
+======================================================================
+
+Herbal section dialect by folio:
+  f1r: B (A=2.0, B=52.0)
+  f1v: B (A=3.0, B=18.0)
+  f2r: B (A=3.5, B=20.5)
+  f2v: B (A=3.0, B=11.5)
+  f3r: A (A=44.0, B=17.0)
+  f3v: A (A=16.0, B=6.5)
+  f4r: B (A=9.5, B=18.5)
+  f4v: B (A=9.0, B=26.0)
+  f5r: B (A=8.5, B=21.0)
+  f5v: B (A=2.5, B=8.5)
+  f6r: AB (A=9.0, B=9.0)
+  f6v: AB (A=15.0, B=13.0)
+  f7r: B (A=6.5, B=19.5)
+  f7v: B (A=7.5, B=20.0)
+  f8r: B (A=6.0, B=36.0)
+  f8v: B (A=3.0, B=21.0)
+  f9r: B (A=5.5, B=13.5)
+  f9v: B (A=7.5, B=16.0)
+  f10r: AB (A=13.0, B=14.0)
+  f10v: B (A=11.5, B=18.5)
+  f11r: B (A=3.0, B=16.5)
+  f11v: B (A=6.0, B=12.0)
+  f13r: AB (A=9.5, B=13.0)
+  f13v: AB (A=9.0, B=7.0)
+  f14r: B (A=7.0, B=21.5)
+  f14v: B (A=3.0, B=13.5)
+  f15r: B (A=8.5, B=17.0)
+  f15v: AB (A=6.0, B=8.0)
+  f16r: B (A=7.0, B=17.5)
+  f16v: B (A=5.0, B=11.0)
+  f17r: A (A=17.0, B=9.0)
+  f17v: B (A=13.5, B=23.5)
+  f18r: AB (A=8.0, B=10.5)
+  f18v: A (A=22.0, B=5.5)
+  f19r: B (A=10.0, B=16.5)
+  f19v: AB (A=14.0, B=11.5)
+  f20r: B (A=12.5, B=35.0)
+  f20v: B (A=4.5, B=14.5)
+  f21r: B (A=11.0, B=31.0)
+  f21v: B (A=6.0, B=14.5)
+  f22r: B (A=12.0, B=19.5)
+  f22v: AB (A=11.5, B=14.0)
+  f23r: AB (A=19.0, B=16.0)
+  f23v: AB (A=13.5, B=9.5)
+  f24r: A (A=26.0, B=10.5)
+  f24v: AB (A=9.5, B=8.5)
+  f25r: B (A=6.0, B=13.0)
+  f25v: B (A=9.0, B=20.0)
+  f26r: B (A=12.0, B=40.5)
+  f26v: B (A=10.0, B=44.0)
+  f27r: B (A=4.0, B=26.5)
+  f27v: B (A=1.0, B=8.0)
+  f28r: AB (A=7.0, B=7.0)
+  f28v: AB (A=10.0, B=12.0)
+  f29r: AB (A=11.0, B=9.5)
+  f29v: B (A=5.0, B=18.5)
+  f30r: B (A=9.5, B=32.0)
+  f30v: B (A=4.5, B=19.5)
+  f31r: B (A=20.0, B=53.0)
+  f31v: B (A=6.5, B=35.0)
+  f32r: AB (A=11.0, B=15.5)
+  f32v: B (A=5.5, B=19.5)
+  f33r: B (A=9.0, B=27.5)
+  f33v: B (A=7.5, B=27.5)
+  f34r: B (A=22.5, B=42.5)
+  f34v: B (A=17.0, B=41.5)
+  f35r: B (A=9.5, B=29.0)
+  f35v: B (A=5.5, B=17.0)
+  f36r: AB (A=7.0, B=8.5)
+  f36v: AB (A=8.0, B=12.0)
+  f37r: AB (A=14.0, B=19.5)
+  f37v: B (A=12.0, B=26.0)
+  f38r: B (A=2.5, B=7.5)
+  f38v: B (A=5.0, B=20.5)
+  f39r: B (A=21.5, B=57.0)
+  f39v: B (A=13.0, B=40.0)
+  f40r: B (A=12.0, B=23.0)
+  f40v: AB (A=21.0, B=31.5)
+  f41r: B (A=18.0, B=51.5)
+  f41v: B (A=12.0, B=30.0)
+  f42r: B (A=8.5, B=23.5)
+  f42v: B (A=8.0, B=28.5)
+  f43r: B (A=22.5, B=59.5)
+  f43v: B (A=17.0, B=69.5)
+  f44r: AB (A=15.5, B=16.5)
+  f44v: B (A=6.5, B=17.5)
+  f45r: AB (A=13.0, B=19.5)
+  f45v: A (A=13.5, B=8.0)
+  f46r: B (A=21.0, B=69.0)
+  f46v: B (A=16.5, B=49.5)
+  f47r: B (A=5.0, B=21.0)
+  f47v: B (A=3.0, B=21.5)
+  f48r: B (A=12.5, B=36.0)
+  f48v: B (A=11.0, B=44.0)
+  f49r: B (A=13.5, B=27.0)
+  f49v: B (A=11.0, B=28.0)
+  f50r: AB (A=18.0, B=24.0)
+  f50v: B (A=16.5, B=29.5)
+  f51r: B (A=17.0, B=28.5)
+  f51v: B (A=17.0, B=27.0)
+  f52r: AB (A=15.0, B=13.5)
+  f52v: B (A=8.5, B=17.5)
+  f53r: AB (A=9.5, B=9.0)
+  f53v: B (A=12.5, B=25.0)
+  f54r: AB (A=15.5, B=17.5)
+  f54v: AB (A=24.0, B=19.0)
+  f55r: B (A=14.5, B=24.5)
+  f55v: B (A=14.0, B=23.5)
+  f56r: B (A=6.5, B=29.5)
+  f56v: B (A=9.5, B=26.5)
+
+Dialect by bifolium in Q4 (Davis: scribes alternate by bifolium):
+  f25/f32: outer=B, inner=AB
+  f26/f31: outer=B, inner=B
+  f27/f30: outer=B, inner=B
+  f28/f29: outer=AB, inner=AB
+
+======================================================================
+ANALYSIS 6: Pharma quire order test (Q15 vs Q17)
+======================================================================
+Q15->Q17 transition Jaccard: 0.0495
+Q17->Q15 transition Jaccard: 0.0662
+Better order: Reversed (Q17->Q15)
+
+======================================================================
+ANALYSIS 7: Five scribes - vocabulary clustering test
+======================================================================
+Top-50 vocabulary overlap Q1-3 vs Q4-6: 32/50 = 64.0%
+Shared words: ['aiin', 'ar', 'chaiin', 'char', 'chey', 'chol', 'chor', 'chy', 'cthol', 'cthy', 'daiin', 'dain', 'dair', 'dal', 'dar', 'dor', 'dy', 'o', 'okaiin', 'ol', 'or', 'oty', 'qokchy', 'qotchy', 'r', 's', 'shey', 'sho', 'shol', 'shor', 'shy', 'y']
+
+Q4 bifolium vocabulary segregation test:
+  f25/f32: shared=14, outer_unique=66, inner_unique=95, segregation=92.00%
+  f26/f31: shared=29, outer_unique=92, inner_unique=130, segregation=88.45%
+  f27/f30: shared=14, outer_unique=87, inner_unique=104, segregation=93.17%
+  f28/f29: shared=19, outer_unique=76, inner_unique=84, segregation=89.39%
+
+======================================================================
+ANALYSIS 8: Dioscorides ordering correlation
+======================================================================
+(Referencing prior Dioscorides ordering analysis)
+The Dioscorides ordering hypothesis assumed current folio sequence = original.
+If bifolia are misordered, any correlation found would be WEAKENED by noise.
+Reordering should either:
+  a) Improve correlation (supporting both Davis and Dioscorides hypotheses)
+  b) Have no effect (reordering is irrelevant to plant ordering)
+  c) Worsen correlation (one hypothesis is wrong)
+
+Herbal section: bifolium-grouped vs sequential coherence
+  Avg bifolium coherence: 0.1070
+  Avg sequential coherence: 0.0898
+  -> Bifolium grouping shows HIGHER coherence than sequential order
+  -> Supports Davis: bifolia were written as units, current sequence is disrupted

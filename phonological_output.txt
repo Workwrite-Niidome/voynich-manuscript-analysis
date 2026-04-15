@@ -1,0 +1,300 @@
+Loaded 35817 word tokens from transcription
+================================================================================
+ANALYSIS 1: chol vs chor -- Next-Word Analysis
+================================================================================
+
+chol followed by 338 words (within-line)
+chor followed by 190 words (within-line)
+
+--- Initial character of following word ---
+ Init   After chol   After chor    chol%    chor%
+    a            6           13     1.8%     6.8%
+    c          115           82    34.0%    43.2%
+    d           60           14    17.8%     7.4%
+    e            3            3     0.9%     1.6%
+    f            0            1     0.0%     0.5%
+    g            0            1     0.0%     0.5%
+    i            1            0     0.3%     0.0%
+    k           21            7     6.2%     3.7%
+    l            6            2     1.8%     1.1%
+    o           51           31    15.1%    16.3%
+    p            1            0     0.3%     0.0%
+    q           20            6     5.9%     3.2%
+    r            2            2     0.6%     1.1%
+    s           29           17     8.6%     8.9%
+    t           10            2     3.0%     1.1%
+    y           13            9     3.8%     4.7%
+
+--- Phonological class summary ---
+Before VOWELS:  chol=61 (18.0%), chor=47 (24.7%)
+Before STOPS:   chol=92 (27.2%), chor=23 (12.1%)
+
+--- SANDHI TEST ---
+chor before vowels: 24.7% vs chol before vowels: 18.0%
+chol before stops:  27.2% vs chor before stops:  12.1%
+>> SANDHI CONFIRMED: chor significantly more likely before vowels
+
+Top 10 words following chol:
+  daiin: 28
+  chol: 18
+  chy: 8
+  shol: 7
+  chey: 7
+  cthol: 6
+  chor: 6
+  ol: 6
+  or: 5
+  cthy: 5
+
+Top 10 words following chor:
+  chol: 8
+  daiin: 7
+  chor: 6
+  chy: 4
+  aiin: 4
+  ar: 4
+  chey: 3
+  cthor: 3
+  char: 3
+  cthy: 3
+
+================================================================================
+ANALYSIS 2: Systematic Sandhi Test for Major Stems
+================================================================================
+
+--- Stem 'cho' ---
+        chol: N= 338, before vowels= 61 (18%), before stops= 92 (27%), before fric=144 (43%)
+        chor: N= 190, before vowels= 47 (25%), before stops= 23 (12%), before fric=100 (53%)
+        chon: N=   1, before vowels=  1 (100%), before stops=  0 (0%), before fric=  0 (0%)
+
+--- Stem 'sho' ---
+        shol: N= 159, before vowels= 31 (19%), before stops= 39 (25%), before fric= 64 (40%)
+        shor: N=  81, before vowels= 12 (15%), before stops=  8 (10%), before fric= 44 (54%)
+
+--- Stem 'da' ---
+         dal: N= 132, before vowels= 27 (20%), before stops= 26 (20%), before fric= 49 (37%)
+         dar: N= 211, before vowels= 96 (45%), before stops= 15 (7%), before fric= 74 (35%)
+         dan: N=   3, before vowels=  1 (33%), before stops=  0 (0%), before fric=  1 (33%)
+
+--- Stem 'daii' ---
+       daiin: N= 557, before vowels=133 (24%), before stops= 67 (12%), before fric=277 (50%)
+       daiir: N=  21, before vowels=  9 (43%), before stops=  1 (5%), before fric=  9 (43%)
+
+--- Stem 'o' ---
+          ol: N= 460, before vowels=130 (28%), before stops= 89 (19%), before fric=193 (42%)
+          or: N= 315, before vowels=178 (57%), before stops= 12 (4%), before fric=106 (34%)
+
+--- Stem 'a' ---
+          al: N= 229, before vowels= 70 (31%), before stops= 53 (23%), before fric= 70 (31%)
+          ar: N= 353, before vowels=237 (67%), before stops= 16 (5%), before fric= 71 (20%)
+          an: N=   4, before vowels=  1 (25%), before stops=  0 (0%), before fric=  3 (75%)
+
+--- Stem 'ctho' ---
+       cthol: N=  43, before vowels=  9 (21%), before stops= 14 (33%), before fric= 17 (40%)
+       cthor: N=  37, before vowels= 14 (38%), before stops=  5 (14%), before fric= 14 (38%)
+
+--- Stem 'cha' ---
+        chal: N=  48, before vowels= 19 (40%), before stops=  7 (15%), before fric= 15 (31%)
+        char: N=  73, before vowels= 34 (47%), before stops=  3 (4%), before fric= 23 (32%)
+        chan: N=   8, before vowels=  3 (38%), before stops=  1 (12%), before fric=  3 (38%)
+
+--- Stem 'sha' ---
+        shal: N=  15, before vowels=  2 (13%), before stops=  3 (20%), before fric=  3 (20%)
+        shar: N=  29, before vowels= 10 (34%), before stops=  1 (3%), before fric= 11 (38%)
+        shan: N=   1, before vowels=  0 (0%), before stops=  0 (0%), before fric=  1 (100%)
+
+================================================================================
+ANALYSIS 3: True Vocabulary Size (Stem-Based)
+================================================================================
+
+--- Surface Form Counts ---
+Total tokens: 35817
+Total unique surface forms: 8071
+  Words ending in -y: 3009 types, 14369 tokens
+  Words ending in -n/l/r: 3108 types, 16423 tokens
+  Other words: 1954 types, 5025 tokens
+
+--- Stem-Based Counts ---
+Unique stems (from n/l/r words): 2564
+Reduction: 3108 surface forms -> 2564 stems
+  Collapsed: 544 surface forms are sandhi variants
+
+--- Effective Vocabulary ---
+Stems (n/l/r words): 2564
+Y-ending words: 3009
+Other words: 1954
+TOTAL EFFECTIVE VOCABULARY: 7527
+Reduction from surface: 8071 -> 7527 (6.7% reduction)
+
+--- Top 30 Stems with Multiple n/l/r Variants ---
+                o:   927 tokens -> o(96), ol(500), on(1), or(330)
+             daii:   689 tokens -> daiin(666), daiir(23)
+                a:   667 tokens -> a(7), al(265), an(6), ar(389)
+              cho:   600 tokens -> cho(58), chol(345), chon(1), chor(196)
+              aii:   572 tokens -> aiil(2), aiin(543), aiir(27)
+               da:   444 tokens -> da(5), dal(175), dan(12), dar(252)
+              sho:   351 tokens -> sho(103), shol(163), shor(85)
+             shey:   333 tokens -> shey(331), sheyr(2)
+             qoka:   328 tokens -> qokal(178), qokan(8), qokar(142)
+            chedy:   325 tokens -> chedy(323), chedyl(1), chedyr(1)
+             cheo:   298 tokens -> cheo(61), cheol(153), cheor(84)
+            qokai:   292 tokens -> qokail(1), qokain(271), qokair(20)
+              oka:   262 tokens -> oka(1), okal(134), okan(6), okar(121)
+                s:   261 tokens -> s(250), sl(4), sr(7)
+              ota:   259 tokens -> ota(2), otal(120), otan(3), otar(134)
+           qokaii:   258 tokens -> qokaiin(255), qokaiir(3)
+              dai:   234 tokens -> dail(2), dain(147), dair(85)
+               ai:   218 tokens -> ail(4), ain(128), air(86)
+            okaii:   207 tokens -> okaiin(200), okaiir(7)
+                y:   199 tokens -> y(197), yl(2)
+               qo:   194 tokens -> qo(39), qol(134), qor(21)
+             sheo:   179 tokens -> sheo(43), sheol(95), sheor(41)
+               do:   167 tokens -> do(15), dol(92), dor(60)
+                r:   156 tokens -> r(150), rl(2), rr(4)
+            otaii:   150 tokens -> otaiin(148), otaiir(2)
+             okai:   146 tokens -> okai(3), okail(2), okain(122), okair(19)
+              cha:   143 tokens -> cha(1), chal(54), chan(10), char(78)
+                l:   140 tokens -> l(128), ll(2), lr(10)
+             saii:   129 tokens -> saiin(125), saiir(4)
+             qoko:   129 tokens -> qoko(6), qokol(94), qokor(29)
+
+================================================================================
+ANALYSIS 4: -y Ending Words (Outside n/l/r System)
+================================================================================
+
+Total -y words: 14369 tokens
+Unique -y words: 3009 types
+Percentage of corpus: 40.1%
+
+Top 30 -y words:
+                  chey: 487
+                qokeey: 367
+                  shey: 331
+                 chedy: 323
+                 shedy: 248
+               qokeedy: 218
+                     y: 197
+                   chy: 194
+                 okeey: 194
+                 qokey: 185
+                 cheey: 182
+                qokedy: 169
+                 oteey: 155
+                    dy: 150
+                 sheey: 136
+                  qoky: 132
+                chckhy: 131
+                  otey: 120
+                   oty: 104
+                  okey: 103
+                  chdy: 99
+                  cthy: 94
+                   shy: 91
+                 otedy: 91
+                   oky: 87
+                chcthy: 81
+                qokchy: 80
+                oteedy: 80
+                lchedy: 80
+                  qoty: 79
+
+-y words: initial of following word:
+  q: 3330 (27.1%)
+  o: 2452 (19.9%)
+  c: 1880 (15.3%)
+  s: 1027 (8.3%)
+  d: 997 (8.1%)
+  l: 770 (6.3%)
+  k: 455 (3.7%)
+  t: 342 (2.8%)
+  y: 332 (2.7%)
+  r: 252 (2.0%)
+  a: 248 (2.0%)
+  p: 93 (0.8%)
+  e: 80 (0.6%)
+  f: 35 (0.3%)
+  m: 6 (0.0%)
+  j: 3 (0.0%)
+  x: 3 (0.0%)
+  i: 2 (0.0%)
+  g: 1 (0.0%)
+  v: 1 (0.0%)
+
+================================================================================
+ANALYSIS 5: Sentence-Level Reading Attempts
+================================================================================
+
+--- f1r.1 ---
+Raw: fachys ykal ar taiin shol shory ses y kor sholdy
+           fachys  [no n/l/r suffix]  -s ending
+             ykal  stem=       yka  -l  (stem-final=a, expected=-r)  next=        ar  UNEXPECTED (expected r or r)
+               ar  stem=         a  -r  (stem-final=a, expected=-r)  next=     taiin  DEFAULT
+            taiin  stem=      taii  -n  (stem-final=i, expected=-n)  next=      shol  SANDHI-OK
+             shol  stem=       sho  -l  (stem-final=o, expected=-l)  next=     shory  DEFAULT
+            shory  [no n/l/r suffix]  -y ending
+              ses  [no n/l/r suffix]  -s ending
+                y  [no n/l/r suffix]  -y ending
+              kor  stem=        ko  -r  (stem-final=o, expected=-l)  next=    sholdy  UNEXPECTED (expected l or n)
+           sholdy  [no n/l/r suffix]  -y ending
+  Stems: fachys yka a taii sho shory ses y ko sholdy
+
+--- f1r.2 ---
+Raw: sory ckhar ory kair chtaiin shar is cthar cthar dan
+             sory  [no n/l/r suffix]  -y ending
+            ckhar  stem=      ckha  -r  (stem-final=a, expected=-r)  next=       ory  SANDHI-OK
+              ory  [no n/l/r suffix]  -y ending
+             kair  stem=       kai  -r  (stem-final=i, expected=-n)  next=   chtaiin  UNEXPECTED (expected n or n)
+          chtaiin  stem=    chtaii  -n  (stem-final=i, expected=-n)  next=      shar  SANDHI-OK
+             shar  stem=       sha  -r  (stem-final=a, expected=-r)  next=        is  SANDHI-OK
+               is  [no n/l/r suffix]  -s ending
+            cthar  stem=      ctha  -r  (stem-final=a, expected=-r)  next=     cthar  DEFAULT
+            cthar  stem=      ctha  -r  (stem-final=a, expected=-r)  next=       dan  DEFAULT
+              dan  stem=        da  -n  (stem-final=a, expected=-r)  next=       EOL  NON-DEFAULT (expected r)
+  Stems: sory ckha ory kai chtaii sha is ctha ctha da
+
+--- f1r.3 ---
+Raw: syaiir sheky or ykaiin shod cthoary cthes daraiin sy
+           syaiir  stem=     syaii  -r  (stem-final=i, expected=-n)  next=     sheky  UNEXPECTED (expected n or n)
+            sheky  [no n/l/r suffix]  -y ending
+               or  stem=         o  -r  (stem-final=o, expected=-l)  next=    ykaiin  NON-DEFAULT (expected l)
+           ykaiin  stem=     ykaii  -n  (stem-final=i, expected=-n)  next=      shod  SANDHI-OK
+             shod  [no n/l/r suffix]  -d ending
+          cthoary  [no n/l/r suffix]  -y ending
+            cthes  [no n/l/r suffix]  -s ending
+          daraiin  stem=    daraii  -n  (stem-final=i, expected=-n)  next=        sy  SANDHI-OK
+               sy  [no n/l/r suffix]  -y ending
+  Stems: syaii sheky o ykaii shod cthoary cthes daraii sy
+
+--- f1r.4 ---
+Raw: soiin oteey oteor roloty ar daiin okaiin or okan
+            soiin  stem=      soii  -n  (stem-final=i, expected=-n)  next=     oteey  DEFAULT
+            oteey  [no n/l/r suffix]  -y ending
+            oteor  stem=      oteo  -r  (stem-final=o, expected=-l)  next=    roloty  UNEXPECTED (expected l or l)
+           roloty  [no n/l/r suffix]  -y ending
+               ar  stem=         a  -r  (stem-final=a, expected=-r)  next=     daiin  DEFAULT
+            daiin  stem=      daii  -n  (stem-final=i, expected=-n)  next=    okaiin  DEFAULT
+           okaiin  stem=     okaii  -n  (stem-final=i, expected=-n)  next=        or  DEFAULT
+               or  stem=         o  -r  (stem-final=o, expected=-l)  next=      okan  SANDHI-OK
+             okan  stem=       oka  -n  (stem-final=a, expected=-r)  next=       EOL  NON-DEFAULT (expected r)
+  Stems: soii oteey oteo roloty a daii okaii o oka
+
+--- f1r.5 ---
+Raw: sairy chear cthaiin cphar cfhaiin
+            sairy  [no n/l/r suffix]  -y ending
+            chear  stem=      chea  -r  (stem-final=a, expected=-r)  next=   cthaiin  DEFAULT
+          cthaiin  stem=    cthaii  -n  (stem-final=i, expected=-n)  next=     cphar  SANDHI-OK
+            cphar  stem=      cpha  -r  (stem-final=a, expected=-r)  next=   cfhaiin  DEFAULT
+          cfhaiin  stem=    cfhaii  -n  (stem-final=i, expected=-n)  next=       EOL  DEFAULT
+  Stems: sairy chea cthaii cpha cfhaii
+
+--- f47r.7 ---
+Raw: schesy kchor cthaiin chol chol chol chor ey
+           schesy  [no n/l/r suffix]  -y ending
+            kchor  stem=      kcho  -r  (stem-final=o, expected=-l)  next=   cthaiin  UNEXPECTED (expected l or n)
+          cthaiin  stem=    cthaii  -n  (stem-final=i, expected=-n)  next=      chol  SANDHI-OK
+             chol  stem=       cho  -l  (stem-final=o, expected=-l)  next=      chol  DEFAULT
+             chol  stem=       cho  -l  (stem-final=o, expected=-l)  next=      chol  DEFAULT
+             chol  stem=       cho  -l  (stem-final=o, expected=-l)  next=      chor  DEFAULT
+             chor  stem=       cho  -r  (stem-final=o, expected=-l)  next=        ey  SANDHI-OK
+               ey  [no n/l/r suffix]  -y ending
+  Stems: schesy kcho cthaii cho cho cho cho ey

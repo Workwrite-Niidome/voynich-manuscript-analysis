@@ -1,0 +1,65 @@
+[
+  {
+    "page": 3,
+    "recurrence_rate_horizontal": 0.41852827537759046,
+    "recurrence_rate_vertical": 0.462656327338723,
+    "lyapunov_horizontal": 0.8696929928590809,
+    "lyapunov_vertical": 0.835534756524594
+  },
+  {
+    "page": 10,
+    "recurrence_rate_horizontal": 0.7090211918979042,
+    "recurrence_rate_vertical": 0.5573714781644892,
+    "lyapunov_horizontal": 0.8647621035275542,
+    "lyapunov_vertical": 0.9110379416902669
+  },
+  {
+    "page": 20,
+    "recurrence_rate_horizontal": 0.566192483315771,
+    "recurrence_rate_vertical": 0.6122099011350388,
+    "lyapunov_horizontal": 0.8273829266440297,
+    "lyapunov_vertical": 0.8364753206633994
+  },
+  {
+    "page": 50,
+    "recurrence_rate_horizontal": 0.3789954337899543,
+    "recurrence_rate_vertical": 0.33477108395940836,
+    "lyapunov_horizontal": 0.8090341332843125,
+    "lyapunov_vertical": 0.7643650628296494
+  },
+  {
+    "page": 80,
+    "recurrence_rate_horizontal": 0.31327127970963586,
+    "recurrence_rate_vertical": 0.3700613265994322,
+    "lyapunov_horizontal": 0.7666154502089887,
+    "lyapunov_vertical": 0.8133134260863453
+  },
+  {
+    "page": 115,
+    "recurrence_rate_horizontal": 0.831378058775319,
+    "recurrence_rate_vertical": 0.8116023861432209,
+    "lyapunov_horizontal": 1.115081137356866,
+    "lyapunov_vertical": 1.0031992304204649
+  },
+  {
+    "page": 145,
+    "recurrence_rate_horizontal": 0.5236916051984545,
+    "recurrence_rate_vertical": 0.6716491261090286,
+    "lyapunov_horizontal": 0.958599207137294,
+    "lyapunov_vertical": 1.0105598478653044
+  },
+  {
+    "page": 190,
+    "recurrence_rate_horizontal": 0.7237384381219998,
+    "recurrence_rate_vertical": 0.7231624239952738,
+    "lyapunov_horizontal": 0.9710719940310043,
+    "lyapunov_vertical": 1.0729511037920476
+  },
+  {
+    "page": 200,
+    "recurrence_rate_horizontal": 0.635077859735394,
+    "recurrence_rate_vertical": 0.7774623440040571,
+    "lyapunov_horizontal": 1.074441600584993,
+    "lyapunov_vertical": 1.058027449179386
+  }
+]
