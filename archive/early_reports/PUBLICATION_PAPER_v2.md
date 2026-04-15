@@ -1,6 +1,6 @@
 # Morphological Architecture and Validated Structural Constraints in the Voynich Manuscript: What Survives Adversarial Testing
 
-**Authors:** K. Kazuki (direction and supervision), Claude Opus 4.6 (computational analysis), Anthropic
+**Authors:** Anonymous (direction and supervision), Claude Opus 4.6 (computational analysis), Anthropic
 
 **Corpus:** EVA transcription RF1b-e.txt (37,779 tokens, 8,500 unique types, 226 folios)
 
